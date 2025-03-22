@@ -1,3 +1,4 @@
+name: zmk-keyboard-skeletyl-xiao
 build:
   settings:
     board_root: .

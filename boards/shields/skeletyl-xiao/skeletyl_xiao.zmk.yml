@@ -1,0 +1,11 @@
+file_format: "1"
+id: skeletyl_xiao
+name: SKELETYL Xiao
+type: shield
+url: https://github.com/KidVizious/skeletyl-xiao-module
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - skeletyl_xiao_left
+  - skeletyl_xiao_right
