@@ -16,13 +16,15 @@
 / {
     behaviors {
         hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
+            flavor = "balanced";
+            require-prior-idle-ms = <150>;
             label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
+            hold-trigger-key-positions = <KEYS_R THUMBS>;
+            hold-trigger-on-release;
         };
     };
 
